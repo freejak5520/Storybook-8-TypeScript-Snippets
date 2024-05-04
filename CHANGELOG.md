@@ -12,11 +12,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Change default Story Name from `Primary` to `Default`
   - Remove args from snippets
 
-## [0.1.1]
+## [0.1.1] - 2024-05-04
 
 - Add scripts to package.json
 
-## [0.1.0]
+## [0.1.0] - 2024-05-04
 
 - Initial release
 - Add snippets for Storybook 8 with TypeScript
