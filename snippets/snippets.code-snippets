@@ -12,9 +12,8 @@
       "",
       "type Story = StoryObj<typeof meta>;",
       "",
-      "export const Primary = {",
+      "export const Default = {",
       "\targs: {",
-      "\t\tprimary: true,"
       "\t},"
       "} satisfies Story;",
       ""

@@ -8,7 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.2]
 
-
+- Update snippets
+  - Change default Story Name from `Primary` to `Default`
+  - Remove args from snippets
 
 ## [0.1.1]
 
