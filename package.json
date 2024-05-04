@@ -1,20 +1,7 @@
 {
-  "name": "storybook-8-typescript-snippets",
-  "displayName": "Storybook 8 TypeScript Snippets",
-  "publisher": "JakeLee",
   "author": {
-    "name": "Jake Lee",
-    "email": "freejak5520@gmail.com"
-  },
-  "repository": {
-    "directory": "./",
-    "type": "git",
-    "url": "https://github.com/freejak5520/Storybook-8-TypeScript-Snippets.git"
-  },
-  "description": "Add Storybook 8 Snippets with React, TypeScript",
-  "version": "0.1.0",
-  "engines": {
-    "vscode": "^1.63.0"
+    "email": "freejak5520@gmail.com",
+    "name": "Jake Lee"
   },
   "categories": [
     "Snippets"
@@ -30,5 +17,22 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "description": "Add Storybook 8 Snippets with React, TypeScript",
+  "displayName": "Storybook 8 TypeScript Snippets",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "name": "storybook-8-typescript-snippets",
+  "publisher": "JakeLee",
+  "repository": {
+    "directory": "./",
+    "type": "git",
+    "url": "https://github.com/freejak5520/Storybook-8-TypeScript-Snippets.git"
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "version": "0.1.1"
 }
