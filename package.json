@@ -12,7 +12,7 @@
     "url": "https://github.com/freejak5520/Storybook-8-TypeScript-Snippets.git"
   },
   "description": "Add Storybook 8 Snippets with React, TypeScript",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.63.0"
   },
