@@ -16,8 +16,8 @@ Supported languages
 ### typescript, typescriptreact
 
 ```tsx
-import type { Meta, StoryObj } from '@storybook/react';
-import { Component } from './Component';
+import type { Meta, StoryObj } from "@storybook/react";
+import Component from "./Component";
 
 const meta = {
   component: Component,
@@ -26,9 +26,9 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Primary = {
+export const Default = {
   args: {
-    primary: true,
   },
 } satisfies Story;
+
 ```
