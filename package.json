@@ -1,0 +1,29 @@
+{
+  "name": "storybook-8-typescript-snippets",
+  "displayName": "Storybook 8 TypeScript Snippets",
+  "publisher": "JakeLee",
+  "author": {
+    "name": "Jake Lee",
+    "email": "freejak5520@gmail.com"
+  },
+  "description": "Add Storybook 8 Snippets with React, TypeScript",
+  "version": "0.0.1-alpha",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
