@@ -34,5 +34,5 @@
     "package": "vsce package --no-yarn",
     "publish": "vsce publish --no-yarn"
   },
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
