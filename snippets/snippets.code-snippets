@@ -6,15 +6,15 @@
       "import ${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}} from \"./${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}}\";",
       "",
       "const meta = {",
+      "\ttitle: \"Components/${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}}\"",
       "\tcomponent: ${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}},",
       "} satisfies Meta<typeof ${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}}>;",
       "export default meta;",
       "",
       "type Story = StoryObj<typeof meta>;",
       "",
-      "export const Primary = {",
+      "export const Default = {",
       "\targs: {",
-      "\t\tprimary: true,"
       "\t},"
       "} satisfies Story;",
       ""
