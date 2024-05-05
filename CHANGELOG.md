@@ -11,6 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Update snippets
   - Change default Story Name from `Primary` to `Default`
   - Remove args from snippets
+  - Add default `title` to snippets
 
 ## [0.1.1] - 2024-05-04
 
