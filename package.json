@@ -32,7 +32,7 @@
     "vscode": "^1.63.0"
   },
   "name": "storybook-8-typescript-snippets",
-  "publisher": "JakeLee",
+  "publisher": "jakelee",
   "repository": {
     "directory": "./",
     "type": "git",
