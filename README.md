@@ -20,6 +20,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import Component from "./Component";
 
 const meta = {
+  title: "Components/Component",
   component: Component,
 } satisfies Meta<typeof Component>;
 export default meta;
@@ -30,5 +31,24 @@ export const Default = {
   args: {
   },
 } satisfies Story;
+
+
+```
+
+### javascript, javascriptreact
+
+```jsx
+import Component from "./Component";
+
+const meta = {
+  title: "Components/Component",
+  component: Component,
+};
+export default meta;
+
+export const Default = {
+  args: {
+  },
+};
 
 ```

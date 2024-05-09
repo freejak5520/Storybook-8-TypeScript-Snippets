@@ -1,0 +1,21 @@
+{
+  "Storybook 8: Snippet": {
+    "prefix": "sb8",
+    "body": [
+      "import ${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}} from \"./${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}}\";",
+      "",
+      "const meta = {",
+      "\ttitle: \"Components/${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}}\",",
+      "\tcomponent: ${1:${TM_FILENAME_BASE/.(?:story|stories).*//gi}},",
+      "};",
+      "export default meta;",
+      "",
+      "export const Default = {",
+      "\targs: {",
+      "\t},"
+      "};",
+      ""
+    ],
+  },
+  "description": "Storybook React JavaScript Snippet"
+}
