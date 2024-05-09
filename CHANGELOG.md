@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.4]
+
+- 
+
 ## [0.1.3]
 
 - Fix missing comma after the title meta tag
