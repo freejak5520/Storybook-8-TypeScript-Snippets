@@ -15,7 +15,7 @@
       "",
       "export const Default = {",
       "\targs: {",
-      "\t},"
+      "\t},",
       "} satisfies Story;",
       ""
     ],
